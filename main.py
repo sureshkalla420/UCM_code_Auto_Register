@@ -31,8 +31,8 @@ def login(driver):
    
     # Login
     
-    driver.find_element(By.ID,"username").send_keys("NXK17250")  
-    driver.find_element(By.ID,"password").send_keys("Nagasuresh@554")
+    driver.find_element(By.ID,"username").send_keys("username")  
+    driver.find_element(By.ID,"password").send_keys("password")
     driver.find_element(By.XPATH,"//*[@id='loginForm']/div[5]/div/button").click()
 
     
